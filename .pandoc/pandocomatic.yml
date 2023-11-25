@@ -1,0 +1,12 @@
+templates:
+  mddoc:
+    pandoc:
+      toc: true
+      toc-own-page: true
+      from: markdown
+      to: pdf
+      listings: true
+      standalone: true
+      template: eisvogel.tex
+      filter:
+      - filters/insert_document.rb
