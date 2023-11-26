@@ -17,3 +17,11 @@ def binary_search(arr, low, high, x):
         # Element is not present in the array
         return -1
 ```
+
+| Foo     | Bar          |
+|:--------|:-------------|
+| FooBar  | BazFaz       |
+| FooFoo  | FarBar       |
+| Bar-Foo | BooBarBazFoo |
+
+ : Demonstration of pipe table syntax.

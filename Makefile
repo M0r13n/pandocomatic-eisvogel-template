@@ -2,8 +2,11 @@
 build:
 	mkdir -p build
 	cp -r .pandoc/* ./build/
-	cp *.md ./build/
-	cd build &&	pandocomatic -i 00_index.md -o result.pdf --data-dir data-dir/ -c pandocomatic.yml
+	cp -r doc ./build/
+	cd build &&	pandocomatic -i doc/00_index.md -o result.pdf --data-dir data-dir/ -c pandocomatic.yml
+
+clean:
+	rm -rf build
 
 install:
 	gem install --user-install pandocomatic
