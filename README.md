@@ -56,3 +56,10 @@ make
 Find your compiled PDF in the **build/** directory. The file is named **result.pdf**.
 
 Feel free to explore and customize the template to meet your specific requirements.
+
+## Slides
+
+There is also a minimalistic presentation template in the [slides](./slides) folder. This is a modified version of the [default slide show](https://pandoc.org/chunkedhtml-demo/10-slide-shows.html) from Pandoc.
+
+<img src="img/slides01.png" alt="Title page" width="400">
+<img src="img/slides02.png" alt="Basic page" width="400">
