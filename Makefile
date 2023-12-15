@@ -2,8 +2,10 @@
 build:
 	mkdir -p build
 	cp -r .pandoc/* ./build/
-	cp -r doc ./build/
+	cp -r doc slides img ./build/
 	cd build &&	pandocomatic -i doc/00_index.md -o result.pdf --data-dir data-dir/ -c pandocomatic.yml
+	cd build &&	pandocomatic -i slides/demo.md -o demo.pdf --data-dir data-dir/ -c pandocomatic.yml
+
 
 clean:
 	rm -rf build
